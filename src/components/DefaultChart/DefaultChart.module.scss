@@ -1,0 +1,23 @@
+.defaultChart {
+    width: calc(25% - 45px);
+    .defaultChartColumn {
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url('/default-column-bg.svg') center/cover no-repeat;
+        margin-bottom: 15px;
+    }
+    .defaultChartValue {
+        background-color: var(--white);
+        border-radius: 5px;
+        padding: 4px 12px;
+        font-weight: 700;
+        color: var(--gray);
+    }
+    .descrChart {
+        font-size: 10px;
+        text-align: center;
+        color: var(--gray);
+    }
+}
